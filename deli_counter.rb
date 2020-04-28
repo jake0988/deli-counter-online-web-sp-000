@@ -13,6 +13,7 @@ end
 end
 
 def take_a_number(deli, name)
+  array = []
   if deli.length == 0
     deli << name
     puts "Welcome, #{name}. You are number #{deli.length} in line."
@@ -20,7 +21,7 @@ def take_a_number(deli, name)
     deli << name
     puts "Welcome, #{name}. You are number #{deli.length} in line."
   else
-    name.collect do |n|
+    array.collect(name)
       puts name.join
     end
   end
