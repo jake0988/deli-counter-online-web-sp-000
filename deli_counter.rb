@@ -17,6 +17,7 @@ def take_a_number(deli, name)
     deli << name
     puts "Welcome, #{name}. You are number #{deli.length} in line."
   elsif deli.length > 0
+    deli << name
     puts "Welcome, #{name}. You are number #{deli.length + 1} in line."
   else
     name.collect do |n|
