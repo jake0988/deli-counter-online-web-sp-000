@@ -23,6 +23,6 @@ def take_a_number(deli, name)
   else
     array.collect(name)
       puts name.join
-    end
+    
   end
 end
