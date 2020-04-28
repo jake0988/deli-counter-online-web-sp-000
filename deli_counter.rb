@@ -11,3 +11,6 @@ def line(name)
   puts array.join
 end
 end
+
+def take_a_number(name)
+  line(name).push(name)
