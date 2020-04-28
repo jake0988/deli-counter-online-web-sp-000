@@ -8,7 +8,6 @@ def line(name)
   else
   array.each_with_index{|val, index| array[index] = "#{index + 1}. #{val}"}
   array.unshift("The line is currently: ")
-  array.join
-  puts array
+  puts array.join
 end
 end
