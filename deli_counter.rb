@@ -1,7 +1,7 @@
-def line(name)
+def line(number)
   array = []
-  name.each do |person|
-    array.push(person)
+  name.each do |number|
+    array.push(number)
     puts array
   end
   if array == nil
