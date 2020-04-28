@@ -1,7 +1,7 @@
 def line(number)
   array = []
     array.push(number)
-  if array.empty?
+  if array.length == 0
     puts "The line is currently empty."
   end
 end
