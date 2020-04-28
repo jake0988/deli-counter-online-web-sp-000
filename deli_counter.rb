@@ -7,7 +7,6 @@ def line(name)
     puts "The line is currently empty."
   end
   array.each_with_index{|val, index|} array[index] = "#{index + 1}. #{val}"
-  end
   array.unshift("The line is currently: ")
   array.join
   puts array
