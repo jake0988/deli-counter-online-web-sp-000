@@ -11,3 +11,4 @@ def line(name)
   array.join
   puts array
 end
+end
