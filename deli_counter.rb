@@ -20,5 +20,6 @@ def take_a_number(deli, name)
   else
     name.collect do |n|
       puts name.join
+    end
   end
 end
