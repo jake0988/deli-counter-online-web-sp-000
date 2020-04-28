@@ -22,7 +22,7 @@ def take_a_number(deli, name)
     puts "Welcome, #{name}. You are number #{deli.length} in line."
   else
     array.collect(name)
-      puts name.join
-    
+      puts array.join
+
   end
 end
