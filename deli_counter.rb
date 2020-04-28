@@ -9,5 +9,6 @@ def line(name)
   array.each_with_index{|val, index|} array[index] = "#{index + 1}. #{val}"
   end
   array.unshift("The line is currently: ")
+  array.join
 
 def
