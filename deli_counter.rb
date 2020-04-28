@@ -1,6 +1,9 @@
 def line(name)
   array = []
-  if name == nil
-    "The line is currently empty."
+  name.each do |person|
+    array << person
+  end
+  if array == nil
+    puts "The line is currently empty."
   end
 end
