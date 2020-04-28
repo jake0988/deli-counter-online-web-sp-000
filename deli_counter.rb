@@ -6,7 +6,7 @@ def line(name)
   if array.length == 0
     puts "The line is currently empty."
   else
-  array.each_with_index{|val, index| array[index] = "#{index + 1}. #{val}"}
+  array.each_with_index{|val, index| array[index] = "#{index + 1}. #{val }"}
   array.unshift("The line is currently: ")
   puts array.join
 end
