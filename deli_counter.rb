@@ -13,5 +13,7 @@ end
 end
 
 def take_a_number(deli, name)
-  if name.length == 1
+  if deli.length == 0
     puts "Welcome, #{name}. You are number #{name.length} in line."
+  elsif name.length == 1
+    puts "Welcome, #{name}. You are number #{deli.length + 1} in line."
