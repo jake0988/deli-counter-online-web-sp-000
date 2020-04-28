@@ -1,6 +1,5 @@
 def line(number)
   array = []
-  name.each do |number|
     array.push(number)
     puts array
   end
