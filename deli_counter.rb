@@ -10,5 +10,4 @@ def line(name)
   end
   array.unshift("The line is currently: ")
   array.join
-
-def
+  puts array
