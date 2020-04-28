@@ -12,5 +12,6 @@ def line(name)
 end
 end
 
-def take_a_number(name)
-  line(name).push(name)
+def take_a_number(deli, name)
+  if name.length == 1
+    puts "Welcome, #{name}. You are number #{name.length} in line."
