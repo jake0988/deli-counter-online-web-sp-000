@@ -1,6 +1,6 @@
 def line(name)
   array = []
-  if !name
+  if name == nil
     "The line is currently empty."
   end
 end
